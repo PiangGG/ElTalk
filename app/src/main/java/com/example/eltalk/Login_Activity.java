@@ -394,7 +394,7 @@ public class Login_Activity extends AppCompatActivity   implements View.OnClickL
     }
 
 
-    public void showToast(String msg) {
+    public void showToast(final String msg) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
